@@ -31,13 +31,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 z-50 flex items-center justify-between transition-all duration-300 
         ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
 
-        {/* Logo */}
-        <a href="#top">
-          <Image
-            src={isDarkMode ? assets.logo_dark : assets.logo}
-            alt="logo"
-            className='w-28 cursor-pointer mr-14'
-          />
+        {/* Text Logo */}
+        <a href="#top" className="text-xl md:text-2xl font-bold font-Ovo tracking-wide text-black dark:text-white mr-14">
+          Daniel
         </a>
 
         {/* Desktop Menu */}
