@@ -44,9 +44,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl font-ovo text-sm sm:text-base md:text-lg text-gray-700 dark:text-gray-300"
       >
-        I am a Web developer from Lewisville, TX with 1.5 years of experience.
-        As a web developer, I have hands-on experience in designing, developing, and maintaining
-        dynamic websites and applications.
+        I am a Web Developer based in Lewisville, TX with solid experience in designing, developing, and maintaining dynamic, user-friendly websites and applications. I bring hands-on expertise in building modern web solutions that prioritize performance, responsiveness, and maintainability.
       </motion.p>
 
       {/* Buttons */}
