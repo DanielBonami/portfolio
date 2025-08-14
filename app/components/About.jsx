@@ -44,9 +44,12 @@ const About = ({isDarkMode}) => {
         transition={{ duration: 0.6, delay: 0.8 }}
         className='flex-1'>
              <p className='mb-10 max-w-2xl font-Ovo'
-             >I’m a dedicated Web Developer based in Lewisville, TX with proven experience building responsive, scalable, and user-friendly websites and applications. I specialize in front-end technologies, with strong proficiency in HTML, CSS, JavaScript, and React, and have a solid understanding of back-end integration and overall web architecture.
+             >I’m a dedicated Web Developer based in Lewisville, TX with proven experience building responsive, scalable, and user-friendly websites and applications.
+              I specialize in front-end technologies, with strong proficiency in HTML5, CSS3, JavaScript, and React, and have a solid understanding of back-end integration and overall web architecture.
 
-             My approach to development is rooted in a passion for clean, efficient code and a drive to create seamless digital experiences. Outside of tech, I’m a naturally disciplined and productive person—I thrive on early mornings, daily routines, and staying active through exercise. While I tend to be a homebody, I value strong personal connections and prioritize communication and quality time with family and close friends. My grounded mindset, focus, and loyalty influence not only my personal life but also how I work—with consistency, reliability, and care for the teams and projects I’m a part of. </p>
+             My approach to development is rooted in a passion for clean, efficient code and a drive to create seamless digital experiences. Outside of tech, I’m a naturally disciplined and productive person—I thrive on early mornings, daily routines, and staying active through exercise.
+            While I tend to be a homebody, I value strong personal connections and prioritize communication and quality time with family and close friends.
+             My grounded mindset, focus, and loyalty influence not only my personal life but also how I work—with consistency, reliability, and care for the teams and projects I’m a part of. </p>
 
             <motion.ul 
             initial={{ opacity: 0 }}
